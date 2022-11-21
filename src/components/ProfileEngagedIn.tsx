@@ -1,4 +1,5 @@
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonList } from "@ionic/react";
+import ProfileOrganizedCard from "./ProfileOrganizedCard";
 
 interface ProfileEngagedInProps {
 
@@ -8,66 +9,10 @@ const ProfileEngagedIn: React.FC<ProfileEngagedInProps> = ({}) => {
     return (
         <>
             <IonList>
-            <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
-                <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
-                <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
-                <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
-                <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
-                <IonCard>
-                    <IonCardHeader>
-                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
-                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
-                    </IonCardHeader>
-
-                    <IonCardContent>
-                        Opis Eventa i dodatne informacije...
-                    </IonCardContent>
-                </IonCard>
+                <ProfileOrganizedCard />
+                <ProfileOrganizedCard />
+                <ProfileOrganizedCard />
+                
             </IonList>
         </>
     );

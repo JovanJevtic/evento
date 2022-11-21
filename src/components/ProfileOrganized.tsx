@@ -13,9 +13,66 @@ const ProfileOrganized: React.FC<ProfileOrganizedProps> = ({}) => {
         <>
             <IonList>
             
-                <ProfileOrganizedCard />
-                <ProfileOrganizedCard />
-                <ProfileOrganizedCard />
+            <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
+                <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
+                <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
+                <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
+                <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
+                <IonCard>
+                    <IonCardHeader>
+                        <IonCardTitle>Naziv Eventa</IonCardTitle>                    
+                        <IonCardSubtitle>Lokacija Eventa</IonCardSubtitle>
+                    </IonCardHeader>
+
+                    <IonCardContent>
+                        Opis Eventa i dodatne informacije...
+                    </IonCardContent>
+                </IonCard>
 
             </IonList>
         </>
