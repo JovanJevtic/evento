@@ -12,7 +12,6 @@ const ProfileEngagedIn: React.FC<ProfileEngagedInProps> = ({}) => {
                 <ProfileOrganizedCard />
                 <ProfileOrganizedCard />
                 <ProfileOrganizedCard />
-                
             </IonList>
         </>
     );
