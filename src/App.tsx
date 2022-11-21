@@ -10,7 +10,9 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { navigate, search, person } from 'ionicons/icons';
+import { navigate, search, person, shareSocial } from 'ionicons/icons';
+
+import './Styles.css';
 
 import Home from './pages/Home';
 import Explore from './pages/Explore';
@@ -52,6 +54,9 @@ const App: React.FC = () => (
           <Route path="/profile">
             <MyProfile />
           </Route>
+          <Route path="/profile">
+            <MyProfile />
+          </Route>
           <Route>
             <Redirect to="/home" />
           </Route>
@@ -61,7 +66,7 @@ const App: React.FC = () => (
             <IonIcon icon={navigate} />
           </IonTabButton>
           <IonTabButton tab="explore" href="/explore">
-            <IonIcon icon={search} />
+            <IonIcon icon={shareSocial} />
           </IonTabButton>
           <IonTabButton tab="profile" href="/profile">
             <IonIcon icon={person} />

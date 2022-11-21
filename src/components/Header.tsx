@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
             <IonToolbar>
                 <IonTitle style={{ fontWeight: 'bold' }}>Evento</IonTitle>
                 <IonButtons slot="primary">
-                    <Link style={{ textDecoration: 'none' }} to={`/payment`}> 
+                    <Link style={{ textDecoration: 'none' }} to={`/profile`}> 
                         <IonChip>
                             <IonIcon color='#ffffff' icon={person} />
                             <IonLabel>username</IonLabel>                
