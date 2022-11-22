@@ -136,3 +136,31 @@
     font-weight: bold;
 }
  
+.explore-slider {
+    height: 65px;
+    width: 100%;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.explore-slider-pfp-wrapp {
+    min-width: 65px;
+}
+
+.explore-slider-pfp-container {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-slider-pfp {
+    width: 25px;
+    height: 25px;
+}

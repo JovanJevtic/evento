@@ -310,7 +310,7 @@ const Home: React.FC<HomeProps> = ({}) => {
                     <IonToolbar>
                         <IonSearchbar placeholder="Search for a location" animated={true} />    
                     </IonToolbar>   
-                </IonHeader>
+            </IonHeader>
             <IonContent>
                 <capacitor-google-map enableCurrentLocation={true} ref={mapRef} style={{
                     display: 'inline-block',

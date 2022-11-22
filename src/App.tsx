@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { navigate, search, person, shareSocial } from 'ionicons/icons';
+import { navigate, search, person } from 'ionicons/icons';
 
 import './Styles.css';
 
@@ -66,7 +66,7 @@ const App: React.FC = () => (
             <IonIcon icon={navigate} />
           </IonTabButton>
           <IonTabButton tab="explore" href="/explore">
-            <IonIcon icon={shareSocial} />
+            <IonIcon icon={search} />
           </IonTabButton>
           <IonTabButton tab="profile" href="/profile">
             <IonIcon icon={person} />
